@@ -12,15 +12,15 @@
         android:layout_height="60dp"
         android:layout_marginTop="50dp"
         android:layout_marginBottom="200dp"
-        android:text="Click me"
+        android:text="Click"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toggleButton" />
+        app:layout_constraintTop_toBottomOf="@+id/tB" />
 
     <ToggleButton
-        android:id="@+id/toggleButton"
+        android:id="@+id/tB"
         android:layout_width="100dp"
         android:layout_height="60dp"
         android:text="ToggleButton"
@@ -31,14 +31,14 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Switch
-        android:id="@+id/switch1"
+        android:id="@+id/sW"
         android:layout_width="47dp"
         android:layout_height="60dp"
         android:layout_marginTop="200dp"
         android:layout_marginBottom="50dp"
         android:scaleX="-3"
         android:scaleY="3"
-        app:layout_constraintBottom_toTopOf="@+id/toggleButton"
+        app:layout_constraintBottom_toTopOf="@+id/tB"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.469"
         app:layout_constraintStart_toStartOf="parent"
